@@ -19,6 +19,13 @@
     margin-bottom: 2em;
     padding: 10px;
     text-align: center;
+    transition:all 0.3s ease;
+    opacity: 0.5;
+    transform: scale(1);
+    &:hover{
+     opacity: 1;
+        transform: scale(1.5);
+    }
 }    
     
 .col-4 {
@@ -27,5 +34,12 @@
     min-height: 240px;
     padding:20px;
     margin-bottom: 2em;
+    transition:all 0.3s ease;
+    opacity: 0.5;
+    transform: scale(1);
+    &:hover{
+     opacity: 1;
+        transform: scale(1.5);
+    }
  }
 }
