@@ -1,0 +1,31 @@
+.wrapper{
+    max-width: 1715px;
+    margin: 0 auto;
+    padding: 1.25rem;
+    }
+
+
+.focal, .row{
+    @extend .clearfix;   
+}
+
+@media only screen and (min-width: $breakpoint-large){
+  
+.col-3 {
+    @include equalSpaced(3, 5%, 100%);
+    float: left;
+    min-height: 240px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 10px;
+    text-align: center;
+}    
+    
+.col-4 {
+    @include equalSpaced(4, 2%, 100%);
+    float: left;
+    min-height: 240px;
+    padding:20px;
+    margin-bottom: 2em;
+ }
+}
